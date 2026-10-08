@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temrin Uygulama Sayfası</title>
+</head>
+<body bgcolor="#F4F7F6">
+    <table border="0" width="80%" align="center" bgcolor="#fff" cellpadding="0" cellspacing="0">
+        <!-- Banner alanı           -->
+        <tr>
+            <td align="center" bgcolor="#2C3E50" height="100">
+                <font color="#fff" size="6">Bilişim Teknolojileri Alanı</font>
+                <br>
+                <font color="#1ABC9C" size="4">HTML5 Temrin Uygulama Sayfası</font>
+            </td>
+        </tr>
+        <!-- Menü satırı -->
+        <tr>
+            <td align="center" bgcolor="#34495E" height="50">
+                <font color="#fff">
+                <a href="#hakkinda"><font color="#fff">Hakkında</a>&nbsp | &nbsp
+                <a href="#dersler"><font color="#fff">Dersler</a> &nbsp | &nbsp
+                <a href="#iletisim"><font color="#fff" >İletişim</a>
+                </font>
+            </td>
+        </tr>
+        <!-- İçerik satırı -->
+         <tr>
+            <td style="padding: 30px;">
+
+                    <a href="#" id="hakkinda"></a>
+                    <h2>Hakkında</h2>
+                    <p>Bu temrin çalışması, meslek lisesi öğrencilerine saf HTML etiketlerini, liste mantığını ve temel form yapılarını öğretmek amacıyla hazırlanmıştır.</p>
+                    <h3>Öğrenilecek Başlıca Konular:</h3>
+                    <ul>
+                        <li>Temel HTML iskelet etiketleri (`&lt;html&gt;`, `&lt;head&gt;`, `&lt;body&gt;`)</li>
+                        <li>Başlık ve paragraf etiketleri (`&lt;h1&gt;`, `&lt;p&gt;`)</li>
+                        <li>Sırasız ve sıralı listeler (`&lt;ul&gt;`, `&lt;ol&gt;`, `&lt;li&gt;`)</li>
+                        <li>Tablo ile şablon oluşturma ve veri listeleme</li>
+                        <li>Form elemanları (`&lt;input&gt;`, `&lt;select&gt;`, `&lt;textarea&gt;`)</li>
+                    </ul>
+                    <hr>
+
+                    <a href="#" id="dersler"></a>
+                    <h2>Haftalık Örnek Ders Programı</h2>
+
+                    <table border="1" width="100%" cellpadding="5" cellspacing="0" bordercolor="#BDC3C7">
+                        <thead bgcolor="#1ABC9C">
+                            <th><font color="#fff">Gün</font></th>
+                            <th><font color="#fff">Ders Adı</font></th>
+                            <th><font color="#fff">Atölye/Lab</font></th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Pazartesi</td>
+                                <td>Web Tasarım ve Programlama</td>
+                                <td>Bilişim Lab-1</td>
+                            </tr>
+                            <tr>
+                                <td>Salı</td>
+                                <td>Veri Tabanı Yönetimi</td>
+                                <td>Bilişim Lab-2</td>
+                            </tr>
+                            <tr>
+                                <td>Çarşamba</td>
+                                <td>Bilgisayar Ağları</td>
+                                <td>Bilişim Lab-3</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <a href="#" id="iletisim"></a>
+                    <h2>Öğrenci Geri Bildirim Formu</h2>
+
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="ad"><b>Adınız Soyadınız:</b> </label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" name="ad" id="ad" size="30" placeholder="Adınızı ve Soyadınızı Giriniz">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="ad"><b>Eposta:</b> </label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="email" name="eposta" id="eposta" size="30" placeholder="Eposta Adresinizi Giriniz">
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td>
+                                <label for="ad"><b>HTML Bilgisi:</b> </label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select name="html_bilgisi" id="html_bilgisi">
+                                    <option value="yok">Yok</option>
+                                    <option value="az">Az</option>
+                                    <option value="orta">Orta</option>
+                                    <option value="iyi">İyi</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="ad"><b>Görüş ve Öneriler:</b> </label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <textarea name="gorusu" id="gorusu" cols="40" rows="5" placeholder="Görüş ve Önerilerinizi Yazınız"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="submit">Gönder</button>
+                                <button type="reset">Temizle</button>
+                            </td>
+                        </tr>
+                    </table>
+            </td>
+         </tr>
+        <!-- Footer satırı -->
+        <tr>
+            <td align="center" bgcolor="#2C3E50" height="50">
+                <font color="#fff"> &copy; Tüm Hakları Saklıdır. 2024</font>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
